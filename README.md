@@ -1,5 +1,5 @@
 # GNNEvaluationMetrics
-The source code to reproduce results from a master thesis study on comparison of GRAN and GraphRNN using new evaluation techniques by training a Graph Neural Network on a graph classification task. 
+The source code to reproduce results from a study on comparison of GRAN and GraphRNN using new evaluation techniques by training a Graph Neural Network on a graph classification task. 
 
 This is using the official PyTorch implementation of GIN [How Powerful are Graph Neural Networks ?](https://github.com/weihua916/powerful-gnns) as described in the following paper:
 
@@ -22,3 +22,7 @@ Please use Anaconda to set up the environment and install dependencies using the
 ## Run Demos
 
 * To run the main workflow of experiments please follow and run the juptyer notebook file ```GNN_metrics_exp.ipynb```
+
+## Graph Datasets
+
+* Some of the graph datasets were obtained by training GRAN and GraphRNN models ( see the following repositories https://github.com/JiaxuanYou/graph-generation,https://github.com/lrjconan/GRAN )
