@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/GNNEvaluation.iml" filepath="$PROJECT_DIR$/.idea/GNNEvaluation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/GNNEvaluationMetrics.iml" filepath="$PROJECT_DIR$/.idea/GNNEvaluationMetrics.iml" />
     </modules>
   </component>
 </project>

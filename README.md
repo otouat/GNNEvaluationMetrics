@@ -13,6 +13,11 @@ This is using the official PyTorch implementation of GIN [How Powerful are Graph
       primaryClass={cs.LG}
 }
 ```
+## Setup & Requirements
+
+This repo uses Python 3.7 with Pytorch 1.8.1
+Please use Anaconda to set up the environment and install dependencies using the following command :
+```conda create --name <env> --file requirements.txt```
 
 ## Run Demos
 
