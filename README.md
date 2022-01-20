@@ -25,4 +25,4 @@ Please use Anaconda to set up the environment and install dependencies using the
 
 ## Graph Datasets
 
-* Some of the graph datasets were obtained by training GRAN and GraphRNN models ( see the following repositories https://github.com/JiaxuanYou/graph-generation,https://github.com/lrjconan/GRAN )
+* Some of the graph datasets were obtained by training GRAN and GraphRNN models ( see the following repositories https://github.com/JiaxuanYou/graph-generation, https://github.com/lrjconan/GRAN )
