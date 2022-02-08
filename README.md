@@ -1,6 +1,16 @@
 # GNNEvaluationMetrics
 The source code to reproduce results from a study on comparison of GRAN and GraphRNN using new evaluation techniques by training a Graph Neural Network on a graph classification task. 
 
+
+# Reproducibility
+Reproduce the environment with *conda*:
+```bash
+conda env create -f environment.yml
+conda activate sur-gnn-metrics
+jupyter notebook
+```
+
+# References
 This is using the official PyTorch implementation of GIN [How Powerful are Graph Neural Networks ?](https://github.com/weihua916/powerful-gnns) as described in the following paper:
 
 ```

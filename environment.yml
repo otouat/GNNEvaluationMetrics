@@ -1,0 +1,13 @@
+name: sur-gnn-metrics
+channels:
+- defaults
+- dglteam
+- pytorch
+dependencies:
+- python>=3.7
+- pytorch==1.8
+- cudatoolkit>=11.1
+- jupyter
+- torchvision==0.9
+- scikit-learn=0.24
+- seaborn=0.11
