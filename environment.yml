@@ -5,9 +5,14 @@ channels:
 - pytorch
 dependencies:
 - python>=3.7
+- pandas
 - pytorch==1.8
 - cudatoolkit>=11.1
 - jupyter
 - torchvision==0.9
 - scikit-learn=0.24
-- seaborn=0.11
+- seaborn==0.11
+- tqdm==4.59
+- matplotlib
+- networkx=2.5
+- pip>=0.20
