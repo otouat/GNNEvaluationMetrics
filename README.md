@@ -3,7 +3,7 @@ The source code to reproduce results from a study on comparison of GRAN and Grap
 
 
 # Reproducibility
-Reproduce the environment with *conda*:
+Reproduce the environment with *conda*, on Linux based machine (tested with Ubuntu 20.04.4 LTS):
 ```bash
 conda env create -f environment.yml
 conda activate sur-gnn-metrics
@@ -25,7 +25,7 @@ This is using the official PyTorch implementation of GIN [How Powerful are Graph
 ```
 ## Setup & Requirements
 
-This repo uses Python 3.7 with Pytorch 1.8.1
+This repo uses Python 3.7 with Pytorch 1.8.1 + CUDA 11.3.1 (it can still run on cpu, albeit running slower)
 Please use Anaconda to set up the environment and install dependencies using the following command :
 ```conda create --name <env> --file requirements.txt```
 
