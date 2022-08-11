@@ -236,6 +236,9 @@ class GraphCNN(nn.Module):
         return score_over_layer
     
     def compute_embed_sum(self, g):
+        '''
+        Compute graph embedding by summing all nodes features vector over each GIN layers (for evaluation metrics computation)
+        '''
         self.eval()
         if self.random:
             X_concat = torch.cat([graph.node_features for graph in g], 0)
@@ -279,6 +282,9 @@ class GraphCNN(nn.Module):
             return graph_embed
 
     def compute_embed_concat(self, g):
+        '''
+        Compute graph embedding by concatenating all nodes features vector over each GIN layers (for evaluation metrics computation)
+        '''
         self.eval()
         if self.random:
             X_concat = torch.cat([graph.node_features for graph in g], 0)
