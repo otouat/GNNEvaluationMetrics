@@ -1,6 +1,17 @@
 # GNNEvaluationMetrics
 The source code to reproduce results from a study on comparison of GRAN and GraphRNN using new evaluation techniques by training a Graph Neural Network on a graph classification task. 
 
+You can cite our work:
+```bibtex
+@inproceedings{touat2023gran,
+  title={GRAN is superior to GraphRNN: node orderings, kernel- and graph embeddings-based metrics for graph generators},
+  author={Touat, Ousmane and Stier, Julian and Portier, Pierre-Edouard and Granitzer, Michael},
+  booktitle={International Conference on Machine Learning, Optimization, and Data Science},
+  year={2023},
+  organization={Springer}
+}
+```
+
 
 # Reproducibility
 Reproduce the environment with *conda*, on Linux based machine (tested with Ubuntu 20.04.4 LTS):
