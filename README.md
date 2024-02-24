@@ -3,12 +3,16 @@ The source code to reproduce results from a study on comparison of GRAN and Grap
 
 You can cite our work:
 ```bibtex
-@inproceedings{touat2023gran,
-  title={GRAN is superior to GraphRNN: node orderings, kernel- and graph embeddings-based metrics for graph generators},
-  author={Touat, Ousmane and Stier, Julian and Portier, Pierre-Edouard and Granitzer, Michael},
-  booktitle={International Conference on Machine Learning, Optimization, and Data Science},
-  year={2023},
-  organization={Springer}
+@inproceedings{10.1007/978-3-031-53969-5_32,
+author="Touat, Ousmane and Stier, Julian and Portier, Pierre-Edouard and Granitzer, Michael",
+editor="Nicosia, Giuseppe and Ojha, Varun and La Malfa, Emanuele and La Malfa, Gabriele and Pardalos, Panos M.and Umeton, Renato",
+title="GRAN Is Superior to GraphRNN: Node Orderings, Kernel- and Graph Embeddings-Based Metrics for Graph Generators",
+booktitle="Machine Learning, Optimization, and Data Science",
+year="2024",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="430--444",
+isbn="978-3-031-53969-5"
 }
 ```
 
